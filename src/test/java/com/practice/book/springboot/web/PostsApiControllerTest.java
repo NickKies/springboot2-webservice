@@ -54,6 +54,11 @@ public class PostsApiControllerTest {
                 .build();
     }
 
+    @After
+    public void tearDown() throws Exception {
+        postsRepository.deleteAll();
+    }
+
     @Test
     @WithMockUser(roles="USER")
     public void Posts_등록된다() throws Exception {
@@ -114,7 +119,7 @@ public class PostsApiControllerTest {
 
         String url = "http://localhost:" + port + "/api/v1/posts/" + updateId;
 
-        HttpEntity<PostsUpdateRequestDto> requestEntity = new HttpEntity<>(requestDto);
+        //HttpEntity<PostsUpdateRequestDto> requestEntity = new HttpEntity<>(requestDto);
 
         /*
         //when
@@ -140,5 +145,4 @@ public class PostsApiControllerTest {
         assertThat(all.get(0).getTitle()).isEqualTo(expectedTitle);
         assertThat(all.get(0).getContent()).isEqualTo(expectedContent);
     }
-
 }
