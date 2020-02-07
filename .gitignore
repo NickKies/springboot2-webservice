@@ -1,6 +1,7 @@
 # Project exclude paths
 .gradle
 .idea
+build
 
 #소셜 client id, secret 보호
 application-oauth.properties
