@@ -2,5 +2,5 @@ version: 0.0
 os: linux
 files:
   -source:
-    description: /home/ec2-user/app/step2/zip
-    overview: yes
+    destination: /home/ec2-user/app/step2/zip
+    overwrite: yes
