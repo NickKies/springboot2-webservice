@@ -3,6 +3,8 @@
 ### test에서 확인후 master로 merge -> 자동배포
 
 
+### 과정 정리
+
 ###### IntelliJ설치
 
 ###### gradle 연동
