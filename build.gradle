@@ -22,7 +22,7 @@ repositories {
 }
 
 group 'com.practice.book'
-version '1.0.1-SNAPSHOT'+new Date().format("yyyMMddHHmmss")
+version '1.0.2-SNAPSHOT'+new Date().format("yyyMMddHHmmss")
 sourceCompatibility = 1.8
 
 repositories {
