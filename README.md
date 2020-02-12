@@ -1,5 +1,8 @@
 ## 스프링 부트와 AWS로 혼자 구현하는 웹 서비스_이동욱
 
+### test에서 확인후 master로 merge -> 자동배포
+
+
 ###### IntelliJ설치
 
 ###### gradle 연동
