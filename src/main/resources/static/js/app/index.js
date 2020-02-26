@@ -11,6 +11,7 @@ var main = {
             _this.delete();
         });
     },
+    
     save : function () {
         var data = {
             title   : $('#title').val(),
